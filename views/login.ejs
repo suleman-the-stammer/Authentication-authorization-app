@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Authentication & Authorization</title>
+    <title>Login</title>
 </head>
 <body class=" bg-zinc-900 text-white p-10">
    <div class="w-full h-screen ">
-    <h1 class="text-3xl">Create User</h1>
-    <form action="/create" class="  mt-10" method="post">
-        <input class="px-3 block py-2 mb-5 rounded-md bg-transparent border-2 border-zinc-800 outline-none" type="text" placeholder="Username" name="username">
+    <h1 class="text-3xl">Login Your Account</h1>
+    <form action="/login" class="  mt-10" method="post">
         <input class="px-3 block  mb-5 py-2 rounded-md bg-transparent border-2 border-zinc-800 outline-none" type="email" placeholder="Email" name="email">
         <input class="px-3 block  mb-5 py-2 rounded-md bg-transparent border-2 border-zinc-800 outline-none" type="password" placeholder="Password" name="password">
-        <input class="px-3 block  mb-5 py-2 rounded-md bg-transparent border-2 border-zinc-800 outline-none" type="number" placeholder="Age" name="age">
-        <input class="px-5 block  mb-5 py-2 rounded-md bg-blue-500 border-2 border-zinc-800 outline-none" type="submit" value="Create User" >
+        
+        <input class="px-5 block  mb-5 py-2 rounded-md bg-blue-500 border-2 border-zinc-800 outline-none" type="submit" value="Login" >
     </form>
    </div>
 </body>
